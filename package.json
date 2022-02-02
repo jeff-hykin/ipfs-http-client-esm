@@ -32,7 +32,7 @@
     },
     "name": "ipfs-http-client-esm",
     "description": "an unoffical copy of ipfs packaged for skypack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "mime-types": "^2.1.18",
         "utility-types": "^3.10.0"
