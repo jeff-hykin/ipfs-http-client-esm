@@ -40,9 +40,10 @@ parcelRequire.register("cHJcH", function(module, exports) {
 
 var $4piS4 = parcelRequire("4piS4");
 const object = {
-}(function(root, factory) {
+};
+(function(root, factory) {
     "object" === 'object' && module.exports ? module.exports = factory() : object.IpfsHttpClient = factory();
-}(typeof self !== 'undefined' ? self : this, function() {
+})(typeof self !== 'undefined' ? self : this, function() {
     var IpfsHttpClient = (()=>{
         var ig = Object.create;
         var Kr = Object.defineProperty;
@@ -8802,7 +8803,7 @@ if (cid) {
         return t3();
     })();
     return IpfsHttpClient;
-}));
+});
 // also need to use RequireJS format because of a seperate reason Parcel.js 2 is jank-AF
 module.exports = object.IpfsHttpClient;
 
